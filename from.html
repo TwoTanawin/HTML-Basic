@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">University</h1>
+    <form align="center">
+        <div>
+            <label for="Name">Name</label>
+            <input type="text" name="fname" placeholder="Enter Your Name" value="Tanawin" required>
+        </div>
+        <div>
+            <label for="Lastname">Last Name</label>
+            <input type="text" name="lname" placeholder="Enter Your Last Name" required>
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="text" name="email" placeholder="Enter Your Email" required>
+        </div>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" name="password" placeholder="Enter Your Password">
+        </div>
+        <div>
+            <label for="">Address</label>
+            <textarea name="" id="" cols="20" rows="5" readonly></textarea>
+        </div>
+        <div>
+            <label for="Age">Age</label>
+            <input type="number" name="age" placeholder="Enter Your Age" min="0" max="10" value="2" readonly>
+        </div>
+        <div>
+            <label for="BridDay">BridDay</label>
+            <input type="date" name="birdday">
+        </div>
+        <div>
+            <label for="Phone">Phone</label>
+            <input type="tel" name="phone">
+        </div>
+        <div>
+            <label for="MyColor">Color</label>
+            <input type="color" name="mycolor">
+        </div>
+        <div>
+            <label for="RangeNum">range of number</label>
+            <input type="range" name="rangenum" value="1">
+        </div>
+        <div>
+            <label for="Degree">Degree</label>
+            <select name="EDU" id="">
+                <option value="B">Bachelor</option>
+                <option value="M" selected>Master</option>
+                <option value="D">Doctor</option>
+            </select>
+        </div>
+        <div>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="gender">Men
+            <input type="radio" name="gender">Women
+            <input type="radio" name="gender">Other
+        </div>
+        <div>
+            <label for="Subject">Subject</label>
+            <input type="checkbox" name="subject">Programming
+            <input type="checkbox" name="subject">Control
+            <input type="checkbox" name="subject">DeepLearning
+        </div>
+        <div>
+            <label for="Document">Document</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="Web">URL</label>
+            <input type="url">
+        </div>
+        <div>
+            <!-- <input type="submit" value="Submit"> -->
+            <button type="submit">Submit</button>
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
